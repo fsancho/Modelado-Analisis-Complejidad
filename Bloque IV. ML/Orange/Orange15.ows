@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Paint Data" position="(78.0, 207.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" title="Paint Data" version="" />
+		<node id="1" name="Polynomial Regression" position="(356.0, 301.0)" project_name="Orange3-Educational" qualified_name="orangecontrib.educational.widgets.owpolynomialregression.OWUnivariateRegression" title="Polynomial Regression" version="" />
+		<node id="2" name="Linear Regression" position="(188.0, 301.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owlinearregression.OWLinearRegression" title="Linear Regression" version="" />
+		<node id="3" name="Select Columns" position="(206.0, 106.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Select Columns" version="" />
+		<node id="4" name="Data Sampler" position="(349.0, 95.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasampler.OWDataSampler" title="Data Sampler" version="" />
+		<node id="5" name="Test &amp; Score" position="(536.0, 284.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
+		<node id="6" name="Test &amp; Score" position="(700.0, 95.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score (1)" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Learner" sink_node_id="1" source_channel="Learner" source_node_id="2" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="3" />
+		<link enabled="true" id="3" sink_channel="Learner" sink_node_id="5" source_channel="Learner" source_node_id="1" />
+		<link enabled="true" id="4" sink_channel="Data" sink_node_id="5" source_channel="Data Sample" source_node_id="4" />
+		<link enabled="true" id="5" sink_channel="Data" sink_node_id="6" source_channel="Data Sample" source_node_id="4" />
+		<link enabled="true" id="6" sink_channel="Test Data" sink_node_id="6" source_channel="Remaining Data" source_node_id="4" />
+		<link enabled="true" id="7" sink_channel="Learner" sink_node_id="6" source_channel="Learner" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'attr1': 'x', 'attr2': 'y', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': True, 'data': [[0.6755737704918032, 0.46490093847758085, 0.0], [0.30830210772833716, 0.31599582898852985, 0.0], [0.49044496487119427, 0.23622523461939526, 0.0], [0.46655737704918027, 0.6563503649635036, 0.0], [0.4307259953161592, 0.5101042752867571, 0.0], [0.726334894613583, 0.6297601668404589, 0.0], [0.7979976580796253, 0.7334619395203337, 0.0], [0.16497658079625294, 0.5925338894681961, 0.0], [0.08435597189695551, 0.46490093847758085, 0.0], [0.8487587822014051, 0.4462877997914495, 0.0]], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00)\x00\x00\x002\x00\x00\x02l\x00\x00\x02\x11\x00\x00\x00.\x00\x00\x00H\x00\x00\x02g\x00\x00\x02\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_apply': True, 'controlAreaVisible': True, 'error_bars_enabled': False, 'learner_name': 'Univariate Regression', 'polynomialexpansion': 10.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x9d\x00\x00\x00\x1f\x00\x00\x03\xca\x00\x00\x01\xef\x00\x00\x00\xa2\x00\x00\x005\x00\x00\x03\xc5\x00\x00\x01\xea\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'alpha_index': 0, 'auto_apply': True, 'autosend': True, 'controlAreaVisible': True, 'l2_ratio': 0.52, 'learner_name': 'Linear Regression', 'reg_type': 2, 'ridge': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x84\x00\x00\x00\xa5\x00\x00\x01\xcd\x00\x00\x01\xd6\x00\x00\x00\x89\x00\x00\x00\xbb\x00\x00\x01\xc8\x00\x00\x01\xd1\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', '__version__': 1}</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWBMAAABz
+YXZlZFdpZGdldEdlb21ldHJ5cQNDMgHZ0MsAAgAAAAAA4QAAAAAAAALeAAACGwAAAOYAAAAWAAAC
+2QAAAhYAAAAAAAAAAAPAcQRYCwAAAF9fdmVyc2lvbl9fcQVLAVgQAAAAY29udGV4dF9zZXR0aW5n
+c3EGXXEHY09yYW5nZS53aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcQgpgXEJfXEKKFgEAAAAdGlt
+ZXELR0HWywnTBNb5WAYAAAB2YWx1ZXNxDH1xDShYEQAAAGRvbWFpbl9yb2xlX2hpbnRzcQ59cQ8o
+WAEAAAB4cRBLAoZxEVgJAAAAYXR0cmlidXRlcRJLAIZxE1gBAAAAeXEUSwKGcRVYBQAAAGNsYXNz
+cRZLAIZxF3VK/v///4ZxGGgFSwF1WAoAAABhdHRyaWJ1dGVzcRl9cRooaBBLAmgUSwJ1WAUAAABt
+ZXRhc3EbfXEcdWJhdS4=
+</properties>
+		<properties format="literal" node_id="4">{'controlAreaVisible': True, 'number_of_folds': 10, 'replacement': False, 'sampleSizeNumber': 1, 'sampleSizePercentage': 70, 'sampleSizeSqlPercentage': 0.1, 'sampleSizeSqlTime': 1, 'sampling_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01~\x00\x00\x00\x1d\x00\x00\x02A\x00\x00\x01\xee\x00\x00\x01\x83\x00\x00\x003\x00\x00\x02&lt;\x00\x00\x01\xe9\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', 'selectedFold': 1, 'sql_dl': False, 'stratify': True, 'use_seed': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="5">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDQAAAGN2X3N0cmF0aWZpZWRxAohYBwAA
+AG5fZm9sZHNxA0sDWAkAAABuX3JlcGVhdHNxBEsDWAoAAAByZXNhbXBsaW5ncQVLBFgLAAAAc2Ft
+cGxlX3NpemVxBksJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDMgHZ0MsAAgAAAAAAcAAAAEcA
+AAIeAAAB1QAAAHUAAABdAAACGQAAAdAAAAAAAAAAAAPAcQhYDAAAAHNob3duX3Njb3Jlc3EJY2J1
+aWx0aW5zCnNldApxCl1xCyhYAwAAAEFVQ3EMWAkAAABQcmVjaXNpb25xDVgCAAAAUjJxDlgEAAAA
+Uk1TRXEPWAIAAABGMXEQWAMAAABNQUVxEVgGAAAAUmVjYWxscRJYAgAAAENBcRNYAwAAAE1TRXEU
+ZYVxFVJxFlgSAAAAc2h1ZmZsZV9zdHJhdGlmaWVkcReIWAsAAABfX3ZlcnNpb25fX3EYSwNYEAAA
+AGNvbnRleHRfc2V0dGluZ3NxGV1xGmNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEb
+KYFxHH1xHShYBAAAAHRpbWVxHkdB1ssJ0xLTy1gGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
+ZWxlY3Rpb25xIVgWAAAAKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKXEiSv////+GcSNYDAAAAGZvbGRf
+ZmVhdHVyZXEkTkr+////hnElWBUAAABmb2xkX2ZlYXR1cmVfc2VsZWN0ZWRxJolK/v///4ZxJ2gY
+SwN1WAoAAABhdHRyaWJ1dGVzcShYAQAAAHhxKUsChnEqhXErWAUAAABtZXRhc3EsKVgKAAAAY2xh
+c3NfdmFyc3EtWAEAAAB5cS5LAoZxL4VxMHViYXUu
+</properties>
+		<properties format="pickle" node_id="6">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDQAAAGN2X3N0cmF0aWZpZWRxAohYBwAA
+AG5fZm9sZHNxA0sDWAkAAABuX3JlcGVhdHNxBEsDWAoAAAByZXNhbXBsaW5ncQVLBVgLAAAAc2Ft
+cGxlX3NpemVxBksJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDMgHZ0MsAAgAAAAAB4gAAADoA
+AAOQAAAByAAAAecAAABQAAADiwAAAcMAAAAAAAAAAAPAcQhYDAAAAHNob3duX3Njb3Jlc3EJY2J1
+aWx0aW5zCnNldApxCl1xCyhYAwAAAEFVQ3EMWAkAAABQcmVjaXNpb25xDVgCAAAAUjJxDlgEAAAA
+Uk1TRXEPWAIAAABGMXEQWAMAAABNQUVxEVgGAAAAUmVjYWxscRJYAgAAAENBcRNYAwAAAE1TRXEU
+ZYVxFVJxFlgSAAAAc2h1ZmZsZV9zdHJhdGlmaWVkcReIWAsAAABfX3ZlcnNpb25fX3EYSwNYEAAA
+AGNvbnRleHRfc2V0dGluZ3NxGV1xGmNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEb
+KYFxHH1xHShYBAAAAHRpbWVxHkdB1ssJ0xsxNFgGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
+ZWxlY3Rpb25xIVgWAAAAKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKXEiSv////+GcSNYDAAAAGZvbGRf
+ZmVhdHVyZXEkTkr+////hnElWBUAAABmb2xkX2ZlYXR1cmVfc2VsZWN0ZWRxJolK/v///4ZxJ2gY
+SwN1WAoAAABhdHRyaWJ1dGVzcShYAQAAAHhxKUsChnEqhXErWAUAAABtZXRhc3EsKVgKAAAAY2xh
+c3NfdmFyc3EtWAEAAAB5cS5LAoZxL4VxMHViYXUu
+</properties>
+	</node_properties>
+</scheme>

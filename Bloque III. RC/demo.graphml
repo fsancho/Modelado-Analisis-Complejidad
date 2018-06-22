@@ -1,0 +1,5041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+<key id="PAGE-RANK" for="node" attr.name="PAGE-RANK" attr.type="double"/>
+<key id="YCOR" for="node" attr.name="YCOR" attr.type="double"/>
+<key id="VISITS" for="node" attr.name="VISITS" attr.type="double"/>
+<key id="HIDDEN?" for="node" attr.name="HIDDEN?" attr.type="boolean"/>
+<key id="NEW-RANK" for="node" attr.name="NEW-RANK" attr.type="double"/>
+<key id="XCOR" for="node" attr.name="XCOR" attr.type="double"/>
+<key id="SIZE" for="node" attr.name="SIZE" attr.type="double"/>
+<key id="BETWEENNESS" for="node" attr.name="BETWEENNESS" attr.type="double"/>
+<key id="RANK" for="node" attr.name="RANK" attr.type="double"/>
+<key id="TYP" for="node" attr.name="TYP" attr.type="double"/>
+<key id="CLOSENESS" for="node" attr.name="CLOSENESS" attr.type="double"/>
+<key id="INFECTED" for="node" attr.name="INFECTED" attr.type="double"/>
+<key id="PHI" for="node" attr.name="PHI" attr.type="double"/>
+<key id="HEADING" for="node" attr.name="HEADING" attr.type="double"/>
+<key id="SHAPE" for="node" attr.name="SHAPE" attr.type="string"/>
+<key id="LABEL-COLOR" for="node" attr.name="LABEL-COLOR" attr.type="double"/>
+<key id="PEN-SIZE" for="node" attr.name="PEN-SIZE" attr.type="double"/>
+<key id="PEN-MODE" for="node" attr.name="PEN-MODE" attr.type="string"/>
+<key id="CLUSTERING" for="node" attr.name="CLUSTERING" attr.type="double"/>
+<key id="COLOR" for="node" attr.name="COLOR" attr.type="double"/>
+<key id="LABEL" for="node" attr.name="LABEL" attr.type="string"/>
+<key id="EIGENVECTOR" for="node" attr.name="EIGENVECTOR" attr.type="double"/>
+<key id="BREED" for="node" attr.name="BREED" attr.type="string"/>
+<key id="WHO" for="node" attr.name="WHO" attr.type="double"/>
+<key id="SHAPE" for="edge" attr.name="SHAPE" attr.type="string"/>
+<key id="LABEL-COLOR" for="edge" attr.name="LABEL-COLOR" attr.type="double"/>
+<key id="HIDDEN?" for="edge" attr.name="HIDDEN?" attr.type="boolean"/>
+<key id="END1" for="edge" attr.name="END1" attr.type="string"/>
+<key id="COLOR" for="edge" attr.name="COLOR" attr.type="string"/>
+<key id="TIE-MODE" for="edge" attr.name="TIE-MODE" attr.type="string"/>
+<key id="END2" for="edge" attr.name="END2" attr.type="string"/>
+<key id="LABEL" for="edge" attr.name="LABEL" attr.type="string"/>
+<key id="BREED" for="edge" attr.name="BREED" attr.type="string"/>
+<key id="THICKNESS" for="edge" attr.name="THICKNESS" attr.type="double"/>
+<graph edgedefault="undirected">
+<node id="node 0">
+<data key="PAGE-RANK">0.011896330691554664</data>
+<data key="YCOR">3.735236352490533</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-7.344165365779208</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">155.52588522588525</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3027522935779816</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">0</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5436006980498607</data>
+<data key="BREED">nodes</data>
+<data key="WHO">0</data>
+</node>
+<node id="node 1">
+<data key="PAGE-RANK">0.00796709784436546</data>
+<data key="YCOR">-4.429756573549459</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-4.189536947215208</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">87.29494949494949</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2757660167130919</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">3.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.21312956201962682</data>
+<data key="BREED">nodes</data>
+<data key="WHO">1</data>
+</node>
+<node id="node 2">
+<data key="PAGE-RANK">0.007830672737691169</data>
+<data key="YCOR">11.865821504264286</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.3112121758852298</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">71.81311743811744</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2861271676300578</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">7.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.27153399095733566</data>
+<data key="BREED">nodes</data>
+<data key="WHO">2</data>
+</node>
+<node id="node 3">
+<data key="PAGE-RANK">0.0058489111212681345</data>
+<data key="YCOR">9.664404307286242</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">7.0334568301175215</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">31.080158730158733</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.264</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">10.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.13825043618135063</data>
+<data key="BREED">nodes</data>
+<data key="WHO">3</data>
+</node>
+<node id="node 4">
+<data key="PAGE-RANK">0.008145707875371217</data>
+<data key="YCOR">-1.314747985598665</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">4.899496439448077</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">78.990873015873</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2632978723404255</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">14.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.1570733888345677</data>
+<data key="BREED">nodes</data>
+<data key="WHO">4</data>
+</node>
+<node id="node 5">
+<data key="PAGE-RANK">0.01020094521313387</data>
+<data key="YCOR">5.243111506128812</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">9.473946286186186</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">132.22606421356417</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.29376854599406527</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">18</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.32187315154755874</data>
+<data key="BREED">nodes</data>
+<data key="WHO">5</data>
+</node>
+<node id="node 6">
+<data key="PAGE-RANK">0.01018291472222782</data>
+<data key="YCOR">1.6308467297453553</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">7.5174350045800375</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">120.81055194805195</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2861271676300578</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">21.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.270469125444494</data>
+<data key="BREED">nodes</data>
+<data key="WHO">6</data>
+</node>
+<node id="node 7">
+<data key="PAGE-RANK">0.007984478488149312</data>
+<data key="YCOR">-6.373745034738414</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">6.290980619735492</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">56.76031746031748</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.25255102040816324</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">25.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.22156715160111887</data>
+<data key="BREED">nodes</data>
+<data key="WHO">7</data>
+</node>
+<node id="node 8">
+<data key="PAGE-RANK">0.009990437738750338</data>
+<data key="YCOR">7.047069895869796</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">4.917918763393376</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">120.85519480519481</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2972972972972973</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">28.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3199304090067195</data>
+<data key="BREED">nodes</data>
+<data key="WHO">8</data>
+</node>
+<node id="node 9">
+<data key="PAGE-RANK">0.009911291669733528</data>
+<data key="YCOR">-5.937011693330133</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">4.12180210522974</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">113.14469696969698</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28125</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">32.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.38187390880209965</data>
+<data key="BREED">nodes</data>
+<data key="WHO">9</data>
+</node>
+<node id="node 10">
+<data key="PAGE-RANK">0.016730680168263144</data>
+<data key="YCOR">2.4298802721168564</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">1.1596690994087115</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">464.2447663447663</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.33</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">36</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5135643293922664</data>
+<data key="BREED">nodes</data>
+<data key="WHO">10</data>
+</node>
+<node id="node 11">
+<data key="PAGE-RANK">0.007929260216264895</data>
+<data key="YCOR">-10.518678627098105</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">0.16002381967509888</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">80.71624486624488</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2742382271468144</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">39.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.2422965784885956</data>
+<data key="BREED">nodes</data>
+<data key="WHO">11</data>
+</node>
+<node id="node 12">
+<data key="PAGE-RANK">0.005654424538661334</data>
+<data key="YCOR">10.865245028862883</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-11.824676644384018</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">14.050274725274722</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.24626865671641793</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">43.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.23036484332467336</data>
+<data key="BREED">nodes</data>
+<data key="WHO">12</data>
+</node>
+<node id="node 13">
+<data key="PAGE-RANK">0.012249461876736553</data>
+<data key="YCOR">-3.229812980224259</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">4.031029925834343</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">188.73350677100672</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3055555555555555</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">46.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.46398169111379567</data>
+<data key="BREED">nodes</data>
+<data key="WHO">13</data>
+</node>
+<node id="node 14">
+<data key="PAGE-RANK">0.007861155867490999</data>
+<data key="YCOR">-11.80650278526902</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.490953496562153</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">87.46855505605504</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2836676217765043</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">50.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.34568019148955503</data>
+<data key="BREED">nodes</data>
+<data key="WHO">14</data>
+</node>
+<node id="node 15">
+<data key="PAGE-RANK">0.011699165704659517</data>
+<data key="YCOR">1.9828471825209737</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-0.6560991547553834</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">314.88972000222</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3333333333333333</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">54</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.6044640656175904</data>
+<data key="BREED">nodes</data>
+<data key="WHO">15</data>
+</node>
+<node id="node 16">
+<data key="PAGE-RANK">0.005596614799613164</data>
+<data key="YCOR">9.889464331011702</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">11.64169361703518</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">7.212734487734486</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.25063291139240507</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">57.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.20750487266384818</data>
+<data key="BREED">nodes</data>
+<data key="WHO">16</data>
+</node>
+<node id="node 17">
+<data key="PAGE-RANK">0.011961489270900861</data>
+<data key="YCOR">7.563877659045691</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">7.007624990095399</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">148.04402958152966</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.30368098159509205</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">61.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5205027177848734</data>
+<data key="BREED">nodes</data>
+<data key="WHO">17</data>
+</node>
+<node id="node 18">
+<data key="PAGE-RANK">0.009698088697838442</data>
+<data key="YCOR">9.938275476756585</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">3.928625399073669</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">119.0257409257409</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.30368098159509205</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">64.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.46697600321562305</data>
+<data key="BREED">nodes</data>
+<data key="WHO">18</data>
+</node>
+<node id="node 19">
+<data key="PAGE-RANK">0.013813629201731112</data>
+<data key="YCOR">3.3089047303240235</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">5.682252873567817</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">314.66240426240415</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.32459016393442625</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">68.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.06666666666666667</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.6682060106211369</data>
+<data key="BREED">nodes</data>
+<data key="WHO">19</data>
+</node>
+<node id="node 20">
+<data key="PAGE-RANK">0.007919048695373486</data>
+<data key="YCOR">-7.17226537355151</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-4.4453335240225424</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">62.877197802197806</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2632978723404255</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">72</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.2440637964826061</data>
+<data key="BREED">nodes</data>
+<data key="WHO">20</data>
+</node>
+<node id="node 21">
+<data key="PAGE-RANK">0.009841533470560848</data>
+<data key="YCOR">-3.248341815756524</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-9.0641953716995</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">99.62846042846039</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2861271676300578</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">75.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.42581976437417257</data>
+<data key="BREED">nodes</data>
+<data key="WHO">21</data>
+</node>
+<node id="node 22">
+<data key="PAGE-RANK">0.012177711666071631</data>
+<data key="YCOR">-1.172198105705415</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-8.831007215485418</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">179.31872016872012</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3009118541033435</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">79.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.48374738915492416</data>
+<data key="BREED">nodes</data>
+<data key="WHO">22</data>
+</node>
+<node id="node 23">
+<data key="PAGE-RANK">0.007596955803120189</data>
+<data key="YCOR">5.348555863144356</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.5993960832742857</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">129.91948051948052</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3065015479876161</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">82.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3571260505589799</data>
+<data key="BREED">nodes</data>
+<data key="WHO">23</data>
+</node>
+<node id="node 24">
+<data key="PAGE-RANK">0.01467058435827618</data>
+<data key="YCOR">4.129132026814052</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-0.3939899409018935</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">227.3802308802309</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3046153846153846</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">86.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.06666666666666667</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4301334240205334</data>
+<data key="BREED">nodes</data>
+<data key="WHO">24</data>
+</node>
+<node id="node 25">
+<data key="PAGE-RANK">0.010032342444983508</data>
+<data key="YCOR">8.431430731739693</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">1.050312375233629</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">108.78916361416357</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2804532577903683</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">90</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.30573437740432785</data>
+<data key="BREED">nodes</data>
+<data key="WHO">25</data>
+</node>
+<node id="node 26">
+<data key="PAGE-RANK">0.007732581771212416</data>
+<data key="YCOR">7.493305162804248</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-3.3701667824634254</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">33.23690476190476</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.27123287671232876</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">93.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.2878316502182179</data>
+<data key="BREED">nodes</data>
+<data key="WHO">26</data>
+</node>
+<node id="node 27">
+<data key="PAGE-RANK">0.0076384162097434954</data>
+<data key="YCOR">3.7156755670781787</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">7.954515759993778</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">59.86694139194139</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.27197802197802196</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">97.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.29342080616960675</data>
+<data key="BREED">nodes</data>
+<data key="WHO">27</data>
+</node>
+<node id="node 28">
+<data key="PAGE-RANK">0.011821136661561019</data>
+<data key="YCOR">-2.1197957899978483</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">8.746466361530713</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">185.98368437118435</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2955223880597015</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">100.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4922528793807868</data>
+<data key="BREED">nodes</data>
+<data key="WHO">28</data>
+</node>
+<node id="node 29">
+<data key="PAGE-RANK">0.01174676592775957</data>
+<data key="YCOR">3.094287450076271</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">10.654257101461381</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">118.15295815295818</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2894736842105263</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">104.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.2</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.50632613438761</data>
+<data key="BREED">nodes</data>
+<data key="WHO">29</data>
+</node>
+<node id="node 30">
+<data key="PAGE-RANK">0.012136244844470692</data>
+<data key="YCOR">6.67927667527117</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">10.619110150620687</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">110.23256188256187</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28125</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">108</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.401897391188484</data>
+<data key="BREED">nodes</data>
+<data key="WHO">30</data>
+</node>
+<node id="node 31">
+<data key="PAGE-RANK">0.009660528668525256</data>
+<data key="YCOR">2.9180634533674117</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">13.489783936763876</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">53.0889763014763</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2668463611859838</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">111.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3949425014851997</data>
+<data key="BREED">nodes</data>
+<data key="WHO">31</data>
+</node>
+<node id="node 32">
+<data key="PAGE-RANK">0.011800347251195201</data>
+<data key="YCOR">-1.8116450036292027</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">11.258428660544766</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">225.80273199023205</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3055555555555555</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">115.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4935097176786254</data>
+<data key="BREED">nodes</data>
+<data key="WHO">32</data>
+</node>
+<node id="node 33">
+<data key="PAGE-RANK">0.009815413180147637</data>
+<data key="YCOR">-4.545862669647547</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">11.564738198136862</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">151.05482017982018</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2886297376093295</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">118.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4660990615793608</data>
+<data key="BREED">nodes</data>
+<data key="WHO">33</data>
+</node>
+<node id="node 34">
+<data key="PAGE-RANK">0.01849012271228829</data>
+<data key="YCOR">-4.567337309137239</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.4959270870276318</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">524.4122002997003</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.34137931034482755</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">122.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.03571428571428571</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.9520129473263041</data>
+<data key="BREED">nodes</data>
+<data key="WHO">34</data>
+</node>
+<node id="node 35">
+<data key="PAGE-RANK">0.007909845768824895</data>
+<data key="YCOR">-5.303112913488891</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">13.696051350233024</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">63.90180375180377</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.25255102040816324</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">126</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.28376385657353387</data>
+<data key="BREED">nodes</data>
+<data key="WHO">35</data>
+</node>
+<node id="node 36">
+<data key="PAGE-RANK">0.011905115558274738</data>
+<data key="YCOR">-4.163839548553628</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">6.755811341362709</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">166.48042929292933</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3018292682926829</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">129.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.2</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.611176051474203</data>
+<data key="BREED">nodes</data>
+<data key="WHO">36</data>
+</node>
+<node id="node 37">
+<data key="PAGE-RANK">0.009808448377712544</data>
+<data key="YCOR">-1.909959322579366</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">6.735850303200514</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">97.4020202020202</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2920353982300885</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">133.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.40341169802386356</data>
+<data key="BREED">nodes</data>
+<data key="WHO">37</data>
+</node>
+<node id="node 38">
+<data key="PAGE-RANK">0.011981068901815469</data>
+<data key="YCOR">-1.457466352230656</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-0.5497851645740419</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">235.1983877233877</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.30841121495327106</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">136.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.39358247385627276</data>
+<data key="BREED">nodes</data>
+<data key="WHO">38</data>
+</node>
+<node id="node 39">
+<data key="PAGE-RANK">0.00959200393076336</data>
+<data key="YCOR">-2.753116885194579</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.269608377022551</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">97.76015512265509</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2911764705882353</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">140.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4476177742704021</data>
+<data key="BREED">nodes</data>
+<data key="WHO">39</data>
+</node>
+<node id="node 40">
+<data key="PAGE-RANK">0.011740859971424787</data>
+<data key="YCOR">-3.3900505523968985</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">0.06282164549933725</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">133.07266622266621</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.29464285714285715</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">144</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5313328888241234</data>
+<data key="BREED">nodes</data>
+<data key="WHO">40</data>
+</node>
+<node id="node 41">
+<data key="PAGE-RANK">0.011617533776756485</data>
+<data key="YCOR">-6.052389293538919</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">1.039929256419544</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">101.52668165168166</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.29289940828402367</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">147.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.2</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.6614223253709447</data>
+<data key="BREED">nodes</data>
+<data key="WHO">41</data>
+</node>
+<node id="node 42">
+<data key="PAGE-RANK">0.005988567096554966</data>
+<data key="YCOR">14.67007547474442</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-3.96562009368068</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">18.629004329004328</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.24626865671641793</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">151.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.13227607612387468</data>
+<data key="BREED">nodes</data>
+<data key="WHO">42</data>
+</node>
+<node id="node 43">
+<data key="PAGE-RANK">0.010094280454527904</data>
+<data key="YCOR">-7.069444986770107</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-6.427307945710292</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">123.42455044955048</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28448275862068967</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">154.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.27320575581995754</data>
+<data key="BREED">nodes</data>
+<data key="WHO">43</data>
+</node>
+<node id="node 44">
+<data key="PAGE-RANK">0.008118355846365239</data>
+<data key="YCOR">-5.526930914739249</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">17.64705834885015</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">14.96329365079365</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.21999999999999997</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">158.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.184111245078488</data>
+<data key="BREED">nodes</data>
+<data key="WHO">44</data>
+</node>
+<node id="node 45">
+<data key="PAGE-RANK">0.008024390248593236</data>
+<data key="YCOR">-7.69575427782023</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">16.855545149986398</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">8.706186868686867</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.22654462242562928</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">162</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.6666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.19203115337133503</data>
+<data key="BREED">nodes</data>
+<data key="WHO">45</data>
+</node>
+<node id="node 46">
+<data key="PAGE-RANK">0.012374444949588847</data>
+<data key="YCOR">-4.200022370588282</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">15.399855666280494</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">104.15101010101009</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2584856396866841</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">165.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.2</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3426158093566727</data>
+<data key="BREED">nodes</data>
+<data key="WHO">46</data>
+</node>
+<node id="node 47">
+<data key="PAGE-RANK">0.009978982513065018</data>
+<data key="YCOR">-7.4945384514778235</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">13.126344941839351</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">109.78993506493508</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.26756756756756755</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">169.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3268893166901635</data>
+<data key="BREED">nodes</data>
+<data key="WHO">47</data>
+</node>
+<node id="node 48">
+<data key="PAGE-RANK">0.005560266140010947</data>
+<data key="YCOR">-10.981841949217305</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">8.270164822666732</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">26.97107892107892</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2773109243697479</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">172.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.30975987374253644</data>
+<data key="BREED">nodes</data>
+<data key="WHO">48</data>
+</node>
+<node id="node 49">
+<data key="PAGE-RANK">0.012327591775472446</data>
+<data key="YCOR">-9.247401872794889</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">6.309310189419622</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">242.7944527694527</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3055555555555555</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">176.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4249308424833381</data>
+<data key="BREED">nodes</data>
+<data key="WHO">49</data>
+</node>
+<node id="node 50">
+<data key="PAGE-RANK">0.00995311624965027</data>
+<data key="YCOR">-9.353425394814098</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.9293796624264927</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">188.70777833277836</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">180</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.36709656209653657</data>
+<data key="BREED">nodes</data>
+<data key="WHO">50</data>
+</node>
+<node id="node 51">
+<data key="PAGE-RANK">0.005921192550866233</data>
+<data key="YCOR">7.29855838106873</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-9.741882414964797</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">35.043406593406594</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2578125</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">183.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.18470180231162645</data>
+<data key="BREED">nodes</data>
+<data key="WHO">51</data>
+</node>
+<node id="node 52">
+<data key="PAGE-RANK">0.016902911418524916</data>
+<data key="YCOR">-2.313411537696408</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-5.487015952582928</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">319.8569347319348</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3193548387096774</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">187.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.6289200344137731</data>
+<data key="BREED">nodes</data>
+<data key="WHO">52</data>
+</node>
+<node id="node 53">
+<data key="PAGE-RANK">0.007434066569819535</data>
+<data key="YCOR">-6.351075946107543</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.290915314387283</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">29.6975690975691</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28448275862068967</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">190.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.515239735679412</data>
+<data key="BREED">nodes</data>
+<data key="WHO">53</data>
+</node>
+<node id="node 54">
+<data key="PAGE-RANK">0.0075652353075893065</data>
+<data key="YCOR">-7.395943342841976</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-0.16860514206727517</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">61.76317848817849</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2894736842105263</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">194.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.45235199753792976</data>
+<data key="BREED">nodes</data>
+<data key="WHO">54</data>
+</node>
+<node id="node 55">
+<data key="PAGE-RANK">0.01570132481017688</data>
+<data key="YCOR">-4.866115051705293</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-0.9733564263091464</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">328.4881340881339</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.32673267326732675</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">198</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.047619047619047616</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">1</data>
+<data key="BREED">nodes</data>
+<data key="WHO">55</data>
+</node>
+<node id="node 56">
+<data key="PAGE-RANK">0.011795387094560133</data>
+<data key="YCOR">-2.3307380284406163</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-7.14263012760258</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">179.82359862359866</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3055555555555555</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">201.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.6214410409200039</data>
+<data key="BREED">nodes</data>
+<data key="WHO">56</data>
+</node>
+<node id="node 57">
+<data key="PAGE-RANK">0.011523473588511213</data>
+<data key="YCOR">2.9835843626354253</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-3.308752980177206</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">221.1893384393385</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.32459016393442625</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">205.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.7296987520308356</data>
+<data key="BREED">nodes</data>
+<data key="WHO">57</data>
+</node>
+<node id="node 58">
+<data key="PAGE-RANK">0.012062415156525737</data>
+<data key="YCOR">5.351809982780553</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-8.65634568304054</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">125.66263736263737</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.29032258064516125</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">208.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5754309036898361</data>
+<data key="BREED">nodes</data>
+<data key="WHO">58</data>
+</node>
+<node id="node 59">
+<data key="PAGE-RANK">0.007793075238712952</data>
+<data key="YCOR">3.1502533796593974</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-9.510415739302758</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">41.640415140415136</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.27272727272727276</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">212.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.33260130137043875</data>
+<data key="BREED">nodes</data>
+<data key="WHO">59</data>
+</node>
+<node id="node 60">
+<data key="PAGE-RANK">0.014026167721203802</data>
+<data key="YCOR">6.253453099275645</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-6.242036712342713</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">270.83278388278393</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3183279742765273</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">216</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.06666666666666667</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.6437980273556329</data>
+<data key="BREED">nodes</data>
+<data key="WHO">60</data>
+</node>
+<node id="node 61">
+<data key="PAGE-RANK">0.00796032082917543</data>
+<data key="YCOR">0.48795434759142237</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-6.791270255255551</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">78.79795482295485</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2796610169491526</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">219.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.2592495123121332</data>
+<data key="BREED">nodes</data>
+<data key="WHO">61</data>
+</node>
+<node id="node 62">
+<data key="PAGE-RANK">0.010445033373751376</data>
+<data key="YCOR">0.07456095442743646</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-1.439811432195933</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">134.77652625152626</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2796610169491526</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">223.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.206185942874481</data>
+<data key="BREED">nodes</data>
+<data key="WHO">62</data>
+</node>
+<node id="node 63">
+<data key="PAGE-RANK">0.011957136782066228</data>
+<data key="YCOR">-2.092858045535959</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.624398685643344</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">196.46830114330123</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.30841121495327106</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">226.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.613628020034619</data>
+<data key="BREED">nodes</data>
+<data key="WHO">63</data>
+</node>
+<node id="node 64">
+<data key="PAGE-RANK">0.010030945155060936</data>
+<data key="YCOR">5.126929725773399</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">3.070174375214985</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">155.8967393717393</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2972972972972973</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">230.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3111533437173688</data>
+<data key="BREED">nodes</data>
+<data key="WHO">64</data>
+</node>
+<node id="node 65">
+<data key="PAGE-RANK">0.005622707369767346</data>
+<data key="YCOR">-2.861637202670869</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-12.429286360757041</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">11.711147186147185</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2619047619047619</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">234</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.25030776174058156</data>
+<data key="BREED">nodes</data>
+<data key="WHO">65</data>
+</node>
+<node id="node 66">
+<data key="PAGE-RANK">0.011954018625023372</data>
+<data key="YCOR">7.187845220439671</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.763309502378428</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">273.673371073371</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.32247557003257327</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">237.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5470645050412418</data>
+<data key="BREED">nodes</data>
+<data key="WHO">66</data>
+</node>
+<node id="node 67">
+<data key="PAGE-RANK">0.012178696727308388</data>
+<data key="YCOR">-9.072194621019527</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.3831759450518923</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">110.31939171939172</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.26756756756756755</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">241.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4459624373867208</data>
+<data key="BREED">nodes</data>
+<data key="WHO">67</data>
+</node>
+<node id="node 68">
+<data key="PAGE-RANK">0.009636517718712208</data>
+<data key="YCOR">-8.612827560625831</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">4.575161601185839</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">94.08346237096235</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28530259365994237</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">244.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.5130306416038555</data>
+<data key="BREED">nodes</data>
+<data key="WHO">68</data>
+</node>
+<node id="node 69">
+<data key="PAGE-RANK">0.010117442829970109</data>
+<data key="YCOR">-12.872084452102039</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">4.399097936974464</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">71.45625901875898</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.26756756756756755</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">248.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3423071746068604</data>
+<data key="BREED">nodes</data>
+<data key="WHO">69</data>
+</node>
+<node id="node 70">
+<data key="PAGE-RANK">0.008018741912866672</data>
+<data key="YCOR">-14.315471949233862</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">2.1429312157615956</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">63.629467754467754</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.27197802197802196</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">252</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.21694970601848956</data>
+<data key="BREED">nodes</data>
+<data key="WHO">70</data>
+</node>
+<node id="node 71">
+<data key="PAGE-RANK">0.008022687210591914</data>
+<data key="YCOR">-11.695636628262903</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.3515323097516645</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">78.56568986568986</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2788732394366197</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">255.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.19714625346313147</data>
+<data key="BREED">nodes</data>
+<data key="WHO">71</data>
+</node>
+<node id="node 72">
+<data key="PAGE-RANK">0.010164210186812265</data>
+<data key="YCOR">-11.648444015070872</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-5.704647106123887</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">125.6566711066711</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28205128205128205</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">259.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.30476005820801844</data>
+<data key="BREED">nodes</data>
+<data key="WHO">72</data>
+</node>
+<node id="node 73">
+<data key="PAGE-RANK">0.008014808710654069</data>
+<data key="YCOR">-13.297731295744759</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-8.466354834776743</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">37.36979131979132</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2481203007518797</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">262.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.16903476978343318</data>
+<data key="BREED">nodes</data>
+<data key="WHO">73</data>
+</node>
+<node id="node 74">
+<data key="PAGE-RANK">0.010519481621298336</data>
+<data key="YCOR">-10.720152847710716</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-10.05677035756476</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">52.989260739260736</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.25063291139240507</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">266.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.17923861897611995</data>
+<data key="BREED">nodes</data>
+<data key="WHO">74</data>
+</node>
+<node id="node 75">
+<data key="PAGE-RANK">0.012467789420179792</data>
+<data key="YCOR">-9.881904389653739</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-5.899162366601179</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">136.8253829503829</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.27049180327868855</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">270</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.2</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.2673942452815877</data>
+<data key="BREED">nodes</data>
+<data key="WHO">75</data>
+</node>
+<node id="node 76">
+<data key="PAGE-RANK">0.01025003137122302</data>
+<data key="YCOR">-8.92075422512006</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-8.579894224939626</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">69.5003968253968</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2578125</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">273.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.16666666666666666</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.20446776745864528</data>
+<data key="BREED">nodes</data>
+<data key="WHO">76</data>
+</node>
+<node id="node 77">
+<data key="PAGE-RANK">0.008163690157419592</data>
+<data key="YCOR">9.87319331907451</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-4.440738223701183</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">89.86194083694085</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28205128205128205</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">277.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.2479659973332652</data>
+<data key="BREED">nodes</data>
+<data key="WHO">77</data>
+</node>
+<node id="node 78">
+<data key="PAGE-RANK">0.00794146845416251</data>
+<data key="YCOR">-4.595454913525827</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-6.544984708090628</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">66.06206848706849</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2619047619047619</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">280.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.18906097102459515</data>
+<data key="BREED">nodes</data>
+<data key="WHO">78</data>
+</node>
+<node id="node 79">
+<data key="PAGE-RANK">0.009821019056579798</data>
+<data key="YCOR">3.8669538389918765</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-5.333048041220998</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">111.92172549672551</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2972972972972973</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">284.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.45641739356741173</data>
+<data key="BREED">nodes</data>
+<data key="WHO">79</data>
+</node>
+<node id="node 80">
+<data key="PAGE-RANK">0.0120221599756203</data>
+<data key="YCOR">-1.2635971017143828</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-4.162811788084481</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">173.40286657786655</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3074534161490683</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">288</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.42975962829282166</data>
+<data key="BREED">nodes</data>
+<data key="WHO">80</data>
+</node>
+<node id="node 81">
+<data key="PAGE-RANK">0.0096527902637102</data>
+<data key="YCOR">0.1779346697566759</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">1.4511929032092012</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">131.2671717171717</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.3009118541033435</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">291.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.38721820233422544</data>
+<data key="BREED">nodes</data>
+<data key="WHO">81</data>
+</node>
+<node id="node 82">
+<data key="PAGE-RANK">0.009855801433143192</data>
+<data key="YCOR">1.154015951735976</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">11.763927635556618</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">135.32905150405153</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28205128205128205</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">295.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3538641089400372</data>
+<data key="BREED">nodes</data>
+<data key="WHO">82</data>
+</node>
+<node id="node 83">
+<data key="PAGE-RANK">0.009770800750136028</data>
+<data key="YCOR">5.549552223870536</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">6.585626935640727</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">96.9667748917749</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2894736842105263</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">298.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3665863601686578</data>
+<data key="BREED">nodes</data>
+<data key="WHO">83</data>
+</node>
+<node id="node 84">
+<data key="PAGE-RANK">0.0057669724363864205</data>
+<data key="YCOR">-6.533215387889752</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-9.656098470010704</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">59.55119047619048</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2612137203166227</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">302.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.1558542610897299</data>
+<data key="BREED">nodes</data>
+<data key="WHO">84</data>
+</node>
+<node id="node 85">
+<data key="PAGE-RANK">0.005660741303134339</data>
+<data key="YCOR">1.2672991582934934</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">3.7867065270021594</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">27.48849206349207</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2668463611859838</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">306</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.20114182437242684</data>
+<data key="BREED">nodes</data>
+<data key="WHO">85</data>
+</node>
+<node id="node 86">
+<data key="PAGE-RANK">0.006059977222010184</data>
+<data key="YCOR">3.1389367048010186</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-14.447211016101052</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">22.795238095238098</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.24874371859296485</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">309.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.13107589740065786</data>
+<data key="BREED">nodes</data>
+<data key="WHO">86</data>
+</node>
+<node id="node 87">
+<data key="PAGE-RANK">0.008183122238348634</data>
+<data key="YCOR">0.6837995907172051</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-10.244882107456382</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">77.52179487179487</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28125</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">313.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.33847779966667013</data>
+<data key="BREED">nodes</data>
+<data key="WHO">87</data>
+</node>
+<node id="node 88">
+<data key="PAGE-RANK">0.010547886687739936</data>
+<data key="YCOR">6.398477462750715</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-12.222625469971943</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">153.33125763125767</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2804532577903683</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">316.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.24418044046120344</data>
+<data key="BREED">nodes</data>
+<data key="WHO">88</data>
+</node>
+<node id="node 89">
+<data key="PAGE-RANK">0.012298915709306376</data>
+<data key="YCOR">0.6276652320020488</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-3.4801377486152307</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">296.766636141636</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.31629392971246006</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">320.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.35464424846407666</data>
+<data key="BREED">nodes</data>
+<data key="WHO">89</data>
+</node>
+<node id="node 90">
+<data key="PAGE-RANK">0.010084971203829061</data>
+<data key="YCOR">1.5197384410853871</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-5.248816779113254</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">128.55674603174603</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.29819277108433734</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">324</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.4215118011936928</data>
+<data key="BREED">nodes</data>
+<data key="WHO">90</data>
+</node>
+<node id="node 91">
+<data key="PAGE-RANK">0.007821285082322743</data>
+<data key="YCOR">7.438129258867876</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-0.9917977052406879</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">80.39471916971917</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28448275862068967</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">327.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.22799018337443697</data>
+<data key="BREED">nodes</data>
+<data key="WHO">91</data>
+</node>
+<node id="node 92">
+<data key="PAGE-RANK">0.01026451888695147</data>
+<data key="YCOR">5.94714200143602</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">0.665068576306205</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">168.35906593406585</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2955223880597015</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">331.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.29267732385979583</data>
+<data key="BREED">nodes</data>
+<data key="WHO">92</data>
+</node>
+<node id="node 93">
+<data key="PAGE-RANK">0.012346432742883584</data>
+<data key="YCOR">10.585762739372074</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.6440237372530464</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">172.95888278388273</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2877906976744186</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">334.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3476637687153056</data>
+<data key="BREED">nodes</data>
+<data key="WHO">93</data>
+</node>
+<node id="node 94">
+<data key="PAGE-RANK">0.005817318936522625</data>
+<data key="YCOR">15.98752</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-9.916931407546166</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">0</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.22499999999999998</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">338.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">1</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.16175483921809025</data>
+<data key="BREED">nodes</data>
+<data key="WHO">94</data>
+</node>
+<node id="node 95">
+<data key="PAGE-RANK">0.010416493997509019</data>
+<data key="YCOR">12.770090783320658</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-9.3759396580573</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">53.53638583638583</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2571428571428572</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">342</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.3333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.27044588730349195</data>
+<data key="BREED">nodes</data>
+<data key="WHO">95</data>
+</node>
+<node id="node 96">
+<data key="PAGE-RANK">0.014850451496837343</data>
+<data key="YCOR">12.610341690838897</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-7.295174742822547</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">204.09148351648363</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2804532577903683</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">345.6</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0.13333333333333333</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.448586297683873</data>
+<data key="BREED">nodes</data>
+<data key="WHO">96</data>
+</node>
+<node id="node 97">
+<data key="PAGE-RANK">0.01279718559972205</data>
+<data key="YCOR">12.885624942112988</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-2.181503357910844</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">169.05558608058607</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2757660167130919</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">349.2</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.340027266947891</data>
+<data key="BREED">nodes</data>
+<data key="WHO">97</data>
+</node>
+<node id="node 98">
+<data key="PAGE-RANK">0.010202709286272274</data>
+<data key="YCOR">4.807128152143031</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-11.096836804433662</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">126.28052503052503</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.28530259365994237</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">352.8</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.3292642223297122</data>
+<data key="BREED">nodes</data>
+<data key="WHO">98</data>
+</node>
+<node id="node 99">
+<data key="PAGE-RANK">0.008360104109403752</data>
+<data key="YCOR">9.631472906703165</data>
+<data key="VISITS">0</data>
+<data key="HIDDEN?">false</data>
+<data key="NEW-RANK">0</data>
+<data key="XCOR">-8.517079591591276</data>
+<data key="SIZE">1</data>
+<data key="BETWEENNESS">58.00833333333334</data>
+<data key="RANK">0</data>
+<data key="TYP">0</data>
+<data key="CLOSENESS">0.2571428571428572</data>
+<data key="INFECTED">0</data>
+<data key="PHI">0</data>
+<data key="HEADING">356.4</data>
+<data key="SHAPE">circle</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="PEN-SIZE">1</data>
+<data key="PEN-MODE">up</data>
+<data key="CLUSTERING">0</data>
+<data key="COLOR">15</data>
+<data key="LABEL"></data>
+<data key="EIGENVECTOR">0.19211594331067877</data>
+<data key="BREED">nodes</data>
+<data key="WHO">99</data>
+</node>
+<edge source="node 0" target="node 21">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 0)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 21)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 0" target="node 26">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 0)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 26)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 0" target="node 57">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 0)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 57)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 0" target="node 60">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 0)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 60)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 0" target="node 98">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 0)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 98)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 1" target="node 20">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 1)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 20)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 1" target="node 24">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 1)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 24)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 1" target="node 43">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 1)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 43)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 2" target="node 8">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 2)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 8)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 2" target="node 66">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 2)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 66)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 2" target="node 97">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 2)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 97)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 3" target="node 5">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 3)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 5)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 3" target="node 92">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 3)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 92)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 4" target="node 6">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 4)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 6)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 4" target="node 7">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 4)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 7)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 4" target="node 62">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 4)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 62)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 5" target="node 6">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 5)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 6)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 5" target="node 19">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 5)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 19)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 5" target="node 82">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 5)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 82)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 6" target="node 8">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 6)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 8)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 6" target="node 37">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 6)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 37)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 7" target="node 9">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 7)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 9)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 7" target="node 67">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 7)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 67)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 8" target="node 10">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 8)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 10)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 8" target="node 83">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 8)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 83)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 9" target="node 28">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 9)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 28)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 9" target="node 40">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 9)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 40)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 9" target="node 54">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 9)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 54)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 10" target="node 23">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 10)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 23)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 10" target="node 32">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 10)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 32)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 10" target="node 77">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 10)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 77)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 10" target="node 82">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 10)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 82)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 10" target="node 84">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 10)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 84)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 10" target="node 89">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 10)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 89)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 11" target="node 13">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 11)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 13)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 11" target="node 14">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 11)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 14)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 11" target="node 75">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 11)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 75)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 12" target="node 58">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 12)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 58)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 12" target="node 96">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 12)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 96)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 13" target="node 15">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 13)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 15)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 13" target="node 36">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 13)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 36)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 13" target="node 37">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 13)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 37)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 13" target="node 85">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 13)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 85)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 14" target="node 34">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 14)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 34)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 14" target="node 69">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 14)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 69)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 15" target="node 17">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 15)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 17)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 15" target="node 52">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 15)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 52)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 15" target="node 60">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 15)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 60)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 15" target="node 80">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 15)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 80)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 16" target="node 17">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 16)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 17)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 16" target="node 30">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 16)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 30)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 17" target="node 18">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 17)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 18)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 17" target="node 19">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 17)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 19)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 17" target="node 83">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 17)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 83)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 18" target="node 19">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 18)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 19)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 18" target="node 66">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 18)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 66)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 18" target="node 97">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 18)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 97)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 19" target="node 29">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 19)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 29)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 19" target="node 49">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 19)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 49)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 19" target="node 57">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 19)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 57)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 20" target="node 21">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 20)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 21)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 20" target="node 67">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 20)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 67)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 21" target="node 22">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 21)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 22)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 21" target="node 56">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 21)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 56)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 22" target="node 40">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 22)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 40)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 22" target="node 63">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 22)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 63)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 22" target="node 65">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 22)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 65)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 22" target="node 98">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 22)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 98)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 23" target="node 24">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 23)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 24)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 23" target="node 60">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 23)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 60)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 24" target="node 25">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 24)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 25)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 24" target="node 26">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 24)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 26)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 24" target="node 66">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 24)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 66)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 24" target="node 85">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 24)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 85)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 25" target="node 26">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 25)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 26)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 25" target="node 27">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 25)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 27)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 25" target="node 93">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 25)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 93)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 27" target="node 28">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 27)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 28)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 27" target="node 29">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 27)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 29)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 28" target="node 29">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 28)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 29)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 28" target="node 32">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 28)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 32)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 28" target="node 68">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 28)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 68)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 29" target="node 30">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 29)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 30)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 29" target="node 31">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 29)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 31)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 30" target="node 31">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 30)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 31)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 30" target="node 64">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 30)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 64)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 30" target="node 83">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 30)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 83)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 31" target="node 32">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 31)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 32)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 31" target="node 82">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 31)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 82)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 32" target="node 33">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 32)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 33)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 32" target="node 47">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 32)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 47)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 33" target="node 34">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 33)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 34)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 33" target="node 35">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 33)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 35)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 33" target="node 46">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 33)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 46)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 34" target="node 36">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 34)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 36)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 34" target="node 48">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 34)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 48)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 34" target="node 55">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 34)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 55)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 34" target="node 63">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 34)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 63)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 34" target="node 66">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 34)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 66)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 34" target="node 87">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 34)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 87)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 35" target="node 36">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 35)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 36)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 35" target="node 44">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 35)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 44)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 36" target="node 37">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 36)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 37)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 36" target="node 63">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 36)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 63)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 37" target="node 39">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 37)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 39)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 38" target="node 39">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 38)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 39)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 38" target="node 75">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 38)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 75)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 38" target="node 81">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 38)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 81)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 38" target="node 89">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 38)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 89)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 38" target="node 92">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 38)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 92)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 39" target="node 40">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 39)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 40)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 39" target="node 41">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 39)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 41)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 40" target="node 41">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 40)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 41)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 40" target="node 81">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 40)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 81)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 41" target="node 53">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 41)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 53)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 41" target="node 55">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 41)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 55)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 41" target="node 67">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 41)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 67)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 42" target="node 77">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 42)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 77)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 42" target="node 97">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 42)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 97)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 43" target="node 50">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 43)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 50)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 43" target="node 76">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 43)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 76)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 43" target="node 80">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 43)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 80)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 44" target="node 45">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 44)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 45)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 44" target="node 46">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 44)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 46)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 45" target="node 46">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 45)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 46)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 45" target="node 47">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 45)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 47)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 46" target="node 47">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 46)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 47)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 46" target="node 82">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 46)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 82)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 47" target="node 49">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 47)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 49)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 48" target="node 49">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 48)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 49)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 49" target="node 50">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 49)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 50)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 49" target="node 70">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 49)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 70)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 50" target="node 52">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 50)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 52)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 50" target="node 72">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 50)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 72)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 51" target="node 52">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 51)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 52)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 51" target="node 99">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 51)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 99)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 52" target="node 53">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 52)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 53)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 52" target="node 54">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 52)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 54)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 52" target="node 65">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 52)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 65)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 52" target="node 90">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 52)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 90)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 53" target="node 55">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 53)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 55)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 54" target="node 55">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 54)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 55)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 55" target="node 56">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 55)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 56)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 55" target="node 57">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 55)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 57)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 55" target="node 68">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 55)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 68)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 56" target="node 58">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 56)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 58)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 56" target="node 72">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 56)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 72)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 56" target="node 79">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 56)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 79)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 57" target="node 58">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 57)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 58)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 57" target="node 79">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 57)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 79)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 58" target="node 59">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 58)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 59)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 58" target="node 60">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 58)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 60)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 59" target="node 60">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 59)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 60)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 59" target="node 61">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 59)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 61)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 60" target="node 96">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 60)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 96)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 61" target="node 62">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 61)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 62)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 61" target="node 63">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 61)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 63)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 62" target="node 64">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 62)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 64)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 62" target="node 78">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 62)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 78)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 63" target="node 90">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 63)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 90)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 64" target="node 66">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 64)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 66)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 64" target="node 91">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 64)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 91)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 67" target="node 68">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 67)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 68)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 67" target="node 69">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 67)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 69)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 68" target="node 69">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 68)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 69)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 69" target="node 70">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 69)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 70)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 70" target="node 71">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 70)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 71)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 71" target="node 72">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 71)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 72)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 71" target="node 89">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 71)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 89)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 72" target="node 73">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 72)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 73)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 73" target="node 74">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 73)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 74)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 73" target="node 75">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 73)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 75)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 74" target="node 75">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 74)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 75)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 74" target="node 76">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 74)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 76)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 74" target="node 84">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 74)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 84)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 75" target="node 76">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 75)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 76)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 76" target="node 78">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 76)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 78)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 77" target="node 79">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 77)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 79)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 78" target="node 80">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 78)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 80)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 79" target="node 80">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 79)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 80)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 80" target="node 81">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 80)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 81)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 81" target="node 83">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 81)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 83)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 86" target="node 87">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 86)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 87)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 86" target="node 88">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 86)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 88)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 87" target="node 90">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 87)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 90)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 88" target="node 89">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 88)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 89)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 88" target="node 95">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 88)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 95)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 88" target="node 98">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 88)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 98)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 89" target="node 91">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 89)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 91)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 90" target="node 92">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 90)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 92)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 91" target="node 93">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 91)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 93)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 92" target="node 93">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 92)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 93)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 93" target="node 95">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 93)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 95)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 93" target="node 96">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 93)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 96)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 94" target="node 95">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 94)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 95)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 94" target="node 96">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 94)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 96)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 95" target="node 96">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 95)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 96)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 96" target="node 97">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 96)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 97)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 97" target="node 99">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 97)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 99)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+<edge source="node 98" target="node 99">
+<data key="SHAPE">default</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HIDDEN?">false</data>
+<data key="END1">(node 98)</data>
+<data key="COLOR">[150 150 150 100]</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(node 99)</data>
+<data key="LABEL"></data>
+<data key="BREED">links</data>
+<data key="THICKNESS">0</data>
+</edge>
+</graph>
+</graphml>
