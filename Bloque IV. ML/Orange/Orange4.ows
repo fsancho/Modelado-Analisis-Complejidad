@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="PCA transforms the data into a dataset with uncorrelated variables, also called principal components. PCA widget displays a graph (scree diagram) showing a degree of explained variance by best principal components and allows to interactively set the number of components to be included in the output dataset. In this workflow, we can observe the transformation in the Data Table and visualize the data using the constructed principal components in the Scatter Plot." title="Principal Component Analysis" version="2.0">
 	<nodes>
-		<node id="0" name="File" position="(63.0, 225.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
-		<node id="1" name="PCA" position="(238.0, 163.0)" project_name="Orange3" qualified_name="Orange.widgets.unsupervised.owpca.OWPCA" title="PCA" version="" />
-		<node id="2" name="Scatter Plot" position="(506.0, 146.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot" version="" />
-		<node id="3" name="Data Table" position="(523.0, 314.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="0" name="File" position="(0, 300)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="1" name="PCA" position="(300, 150)" project_name="Orange3" qualified_name="Orange.widgets.unsupervised.owpca.OWPCA" title="PCA" version="" />
+		<node id="2" name="Scatter Plot" position="(600, 150)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot" version="" />
+		<node id="3" name="Data Table" position="(600, 300)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
@@ -14,12 +14,12 @@
 		<link enabled="true" id="4" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
 	</links>
 	<annotations>
-		<text font-family="Helvetica" font-size="12" id="0" rect="(80.0, 25.0, 150.0, 54.0)" type="text/plain">Doble click para seleccionar el número de componentes.</text>
-		<text font-family="Helvetica" font-size="12" id="1" rect="(347.0, 22.0, 168.0, 58.0)" type="text/plain">Selecciona las 2 mejores componentes para comprobar si separan bien.</text>
-		<text font-family="Helvetica" font-size="12" id="2" rect="(37.0, 302.0, 209.0, 58.0)" type="text/plain">Carga brown-selected, un dataset de biología molecular con 79 features, 186 instanciass y 3 clases.</text>
-		<arrow end="(216.0, 131.0)" fill="#C1272D" id="3" start="(162.0, 84.0)" />
-		<arrow end="(412.0, 121.0)" fill="#C1272D" id="4" start="(426.0, 74.0)" />
-		<arrow end="(95.0, 242.0)" fill="#C1272D" id="5" start="(132.0, 298.0)" />
+		<text font-family="Helvetica" font-size="12" id="0" rect="(80.0, 25.0, 175.0, 38.0)" type="text/plain">Doble click para seleccionar el número de componentes.</text>
+		<text font-family="Helvetica" font-size="12" id="1" rect="(522.0, 11.0, 168.0, 58.0)" type="text/plain">Selecciona las 2 mejores componentes para comprobar si separan bien.</text>
+		<text font-family="Helvetica" font-size="12" id="2" rect="(37.0, 408.0, 209.0, 58.0)" type="text/plain">Carga brown-selected, un dataset de biología molecular con 79 features, 186 instanciass y 3 clases.</text>
+		<arrow end="(295.0, 121.0)" fill="#C1272D" id="3" start="(231.0, 52.0)" />
+		<arrow end="(604.0, 121.0)" fill="#C1272D" id="4" start="(603.0, 66.0)" />
+		<arrow end="(14.0, 324.0)" fill="#C1272D" id="5" start="(124.0, 409.0)" />
 	</annotations>
 	<thumbnail />
 	<node_properties>
@@ -35,7 +35,7 @@ ZVgLAAAAcmVjZW50X3VybHNxFV1xFlgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEXQzIB2dDLAAIA
 AAAAAOcAAAAlAAAC4gAAAhEAAADsAAAAOwAAAt0AAAIMAAAAAAAAAAADwHEYWAsAAABzaGVldF9u
 YW1lc3EZfXEaWAYAAABzb3VyY2VxG0sAWAMAAAB1cmxxHGgOWA0AAABkb21haW5fZWRpdG9ycR19
 cR5YCwAAAF9fdmVyc2lvbl9fcR9LAVgQAAAAY29udGV4dF9zZXR0aW5nc3EgXXEhY09yYW5nZS53
-aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcSIpgXEjfXEkKFgEAAAAdGltZXElR0HWywuOovqjWAYA
+aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcSIpgXEjfXEkKFgEAAAAdGltZXElR0HWzT+KOTO3WAYA
 AAB2YWx1ZXNxJn1xJyhYCQAAAHZhcmlhYmxlc3EoXXEpWAkAAAB4bHNfc2hlZXRxKmgOSv////+G
 cStoHX1xLGgoXXEtKF1xLihYBwAAAGFscGhhIDBxL2NPcmFuZ2UuZGF0YS52YXJpYWJsZQpDb250
 aW51b3VzVmFyaWFibGUKcTBLAGgOiGVdcTEoWAcAAABhbHBoYSA3cTJoMEsAaA6IZV1xMyhYCAAA
@@ -121,7 +121,7 @@ b2xBcmVhVmlzaWJsZXEHiFgEAAAAbWF4cHEISxRYCwAAAG5jb21wb25lbnRzcQlLA1gTAAAAc2F2
 ZWRXaWRnZXRHZW9tZXRyeXEKQzIB2dDLAAIAAAAAAJQAAACbAAADHQAAAesAAACZAAAAsQAAAxgA
 AAHmAAAAAAAAAAADwHELWBAAAAB2YXJpYW5jZV9jb3ZlcmVkcQxLLFgLAAAAX192ZXJzaW9uX19x
 DUsBWBAAAABjb250ZXh0X3NldHRpbmdzcQ5dcQ9jT3JhbmdlLndpZGdldHMuc2V0dGluZ3MKQ29u
-dGV4dApxECmBcRF9cRIoWAQAAAB0aW1lcRNHQdbLC47FjWFYBgAAAHZhbHVlc3EUfXEVKFgRAAAA
+dGV4dApxECmBcRF9cRIoWAQAAAB0aW1lcRNHQdbNP4plJeVYBgAAAHZhbHVlc3EUfXEVKFgRAAAA
 ZGVjb21wb3NpdGlvbl9pZHhxFksASv7///+GcRdYCQAAAG5vcm1hbGl6ZXEYiEr+////hnEZaA1L
 AXVYCgAAAGF0dHJpYnV0ZXNxGn1xGyhYBwAAAGFscGhhIDBxHEsCWAcAAABhbHBoYSA3cR1LAlgI
 AAAAYWxwaGEgMTRxHksCWAgAAABhbHBoYSAyMXEfSwJYCAAAAGFscGhhIDI4cSBLAlgIAAAAYWxw
@@ -157,7 +157,7 @@ c3EMiFgLAAAAaml0dGVyX3NpemVxDUsBWBMAAABsYWJlbF9vbmx5X3NlbGVjdGVkcQ6JWAsAAABw
 b2ludF93aWR0aHEPSwpYCQAAAHNob3dfZ3JpZHEQiVgLAAAAc2hvd19sZWdlbmRxEYhYDQAAAHNo
 b3dfcmVnX2xpbmVxEolYEQAAAHRvb2x0aXBfc2hvd3NfYWxscROJdVgLAAAAX192ZXJzaW9uX19x
 FEsCWBAAAABjb250ZXh0X3NldHRpbmdzcRVdcRYoY09yYW5nZS53aWRnZXRzLnNldHRpbmdzCkNv
-bnRleHQKcRcpgXEYfXEZKFgEAAAAdGltZXEaR0HWywuO3kNzWAYAAAB2YWx1ZXNxG31xHChYBgAA
+bnRleHQKcRcpgXEYfXEZKFgEAAAAdGltZXEaR0HWzT+Kf3UdWAYAAAB2YWx1ZXNxG31xHChYBgAA
 AGF0dHJfeHEdWAMAAABQQzFxHktmhnEfWAYAAABhdHRyX3lxIFgDAAAAUEMzcSFLZoZxImgIfXEj
 KFgKAAAAYXR0cl9jb2xvcnEkWAgAAABmdW5jdGlvbnElS2WGcSZYCgAAAGF0dHJfbGFiZWxxJ05K
 /v///4ZxKFgKAAAAYXR0cl9zaGFwZXEpTkr+////hnEqWAkAAABhdHRyX3NpemVxK05K/v///4Zx
@@ -188,7 +188,7 @@ ZWRXaWRnZXRHZW9tZXRyeXEGQzIB2dDLAAIAAAAAAFAAAAAUAAADeQAAAiIAAABVAAAAKgAAA3QA
 AAIdAAAAAAAAAAADwHEHWAsAAABzZWxlY3Rfcm93c3EIiFgVAAAAc2hvd19hdHRyaWJ1dGVfbGFi
 ZWxzcQmIWBIAAABzaG93X2Rpc3RyaWJ1dGlvbnNxCohYCwAAAF9fdmVyc2lvbl9fcQtLAVgQAAAA
 Y29udGV4dF9zZXR0aW5nc3EMXXENKGNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEO
-KYFxD31xEChYBAAAAHRpbWVxEUdB1ssLjtfselgGAAAAdmFsdWVzcRJ9cRMoWA0AAABzZWxlY3Rl
+KYFxD31xEChYBAAAAHRpbWVxEUdB1s0/ink8DFgGAAAAdmFsdWVzcRJ9cRMoWA0AAABzZWxlY3Rl
 ZF9jb2xzcRRdcRVYDQAAAHNlbGVjdGVkX3Jvd3NxFl1xF2gLSwF1WAoAAABhdHRyaWJ1dGVzcRh9
 cRkoWAcAAABhbHBoYSAwcRpLAlgHAAAAYWxwaGEgN3EbSwJYCAAAAGFscGhhIDE0cRxLAlgIAAAA
 YWxwaGEgMjFxHUsCWAgAAABhbHBoYSAyOHEeSwJYCAAAAGFscGhhIDM1cR9LAlgIAAAAYWxwaGEg
@@ -213,10 +213,10 @@ cVtLAlgGAAAAZHR0IDYwcVxLAlgHAAAAZHR0IDEyMHFdSwJYBgAAAGNvbGQgMHFeSwJYBwAAAGNv
 bGQgMjBxX0sCWAcAAABjb2xkIDQwcWBLAlgIAAAAY29sZCAxNjBxYUsCWAYAAABkaWF1IGFxYksC
 WAYAAABkaWF1IGJxY0sCWAYAAABkaWF1IGNxZEsCWAYAAABkaWF1IGRxZUsCWAYAAABkaWF1IGVx
 ZksCWAYAAABkaWF1IGZxZ0sCWAYAAABkaWF1IGdxaEsCdVgFAAAAbWV0YXNxaX1xalgJAAAAY29t
-cG9uZW50cWtLA3N1YmgOKYFxbH1xbShoEUdB1ssLjteKcGgSfXFuKGgUXXFvKEsASwFLAksDSwRl
+cG9uZW50cWtLA3N1YmgOKYFxbH1xbShoEUdB1s0/injMHGgSfXFuKGgUXXFvKEsASwFLAksDSwRl
 aBZdcXBLXmFoC0sBdWgYfXFxKFgDAAAAUEMxcXJLAlgDAAAAUEMycXNLAlgDAAAAUEMzcXRLAlgI
 AAAAZnVuY3Rpb25xdV1xdihYBwAAAFByb3RlYXNxd1gEAAAAUmVzcHF4WAQAAABSaWJvcXlldWhp
-fXF6WAQAAABnZW5lcXtLA3N1YmgOKYFxfH1xfShoEUdB1ssLjtbGXGgSfXF+KGgUXXF/KEsASwFL
+fXF6WAQAAABnZW5lcXtLA3N1YmgOKYFxfH1xfShoEUdB1s0/ing8MGgSfXF+KGgUXXF/KEsASwFL
 AksDSwRlaBZdcYBLXmFoC0sBdWgYfXGBKGgaSwJoG0sCaBxLAmgdSwJoHksCaB9LAmggSwJoIUsC
 aCJLAmgjSwJoJEsCaCVLAmgmSwJoJ0sCaChLAmgpSwJoKksCaCtLAmgsSwJoLUsCaC5LAmgvSwJo
 MEsCaDFLAmgySwJoM0sCaDRLAmg1SwJoNksCaDdLAmg4SwJoOUsCaDpLAmg7SwJoPEsCaD1LAmg+

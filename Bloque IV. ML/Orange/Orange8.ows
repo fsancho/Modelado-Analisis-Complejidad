@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="" title="" version="2.0">
 	<nodes>
-		<node id="0" name="File" position="(150, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="0" name="File" position="(150.0, 133.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
 		<node id="1" name="Test &amp; Score" position="(476.0, 148.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
 		<node id="2" name="Logistic Regression" position="(306.0, 242.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" title="Logistic Regression" version="" />
-		<node id="3" name="Neural Network" position="(305.0, 343.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" title="Neural Network" version="" />
+		<node id="3" name="Neural Network" position="(314.0, 374.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" title="Neural Network" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Learner" sink_node_id="1" source_channel="Learner" source_node_id="2" />
@@ -26,7 +26,7 @@ CwAAAHJlY2VudF91cmxzcRVdcRZYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxF0MyAdnQywACAAAA
 AAAAAAAAAAAAAmEAAAIbAAAABQAAABYAAAJcAAACFgAAAAAAAAAAA8BxGFgLAAAAc2hlZXRfbmFt
 ZXNxGX1xGlgGAAAAc291cmNlcRtLAFgDAAAAdXJscRxoDlgNAAAAZG9tYWluX2VkaXRvcnEdfXEe
 WAsAAABfX3ZlcnNpb25fX3EfSwFYEAAAAGNvbnRleHRfc2V0dGluZ3NxIF1xIWNPcmFuZ2Uud2lk
-Z2V0cy5zZXR0aW5ncwpDb250ZXh0CnEiKYFxI31xJChYBAAAAHRpbWVxJUdB1seYDwik1FgGAAAA
+Z2V0cy5zZXR0aW5ncwpDb250ZXh0CnEiKYFxI31xJChYBAAAAHRpbWVxJUdB1s1AzJsu51gGAAAA
 dmFsdWVzcSZ9cScoWAkAAAB2YXJpYWJsZXNxKF1xKVgJAAAAeGxzX3NoZWV0cSpoDkr/////hnEr
 aB19cSxoKF1xLShdcS4oWAwAAABzZXBhbCBsZW5ndGhxL2NPcmFuZ2UuZGF0YS52YXJpYWJsZQpD
 b250aW51b3VzVmFyaWFibGUKcTBLAGgOiGVdcTEoWAsAAABzZXBhbCB3aWR0aHEyaDBLAGgOiGVd
@@ -43,11 +43,11 @@ ZYZxTIVxTVgSAAAAbW9kaWZpZWRfdmFyaWFibGVzcU5dcU91YmF1Lg==
 AG5fZm9sZHNxA0sDWAkAAABuX3JlcGVhdHNxBEsDWAoAAAByZXNhbXBsaW5ncQVLAFgLAAAAc2Ft
 cGxlX3NpemVxBksJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDMgHZ0MsAAgAAAAAB4gAAADoA
 AAOQAAAByAAAAecAAABQAAADiwAAAcMAAAAAAAAAAAPAcQhYDAAAAHNob3duX3Njb3Jlc3EJY2J1
-aWx0aW5zCnNldApxCl1xCyhYBAAAAFJNU0VxDFgDAAAAQVVDcQ1YAgAAAENBcQ5YCQAAAFByZWNp
-c2lvbnEPWAMAAABNU0VxEFgCAAAARjFxEVgDAAAATUFFcRJYBgAAAFJlY2FsbHETWAIAAABSMnEU
+aWx0aW5zCnNldApxCl1xCyhYAwAAAE1BRXEMWAMAAABBVUNxDVgJAAAAUHJlY2lzaW9ucQ5YAgAA
+AFIycQ9YAwAAAE1TRXEQWAQAAABSTVNFcRFYBgAAAFJlY2FsbHESWAIAAABGMXETWAIAAABDQXEU
 ZYVxFVJxFlgSAAAAc2h1ZmZsZV9zdHJhdGlmaWVkcReIWAsAAABfX3ZlcnNpb25fX3EYSwNYEAAA
 AGNvbnRleHRfc2V0dGluZ3NxGV1xGmNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEb
-KYFxHH1xHShYBAAAAHRpbWVxHkdB1seYlohfZFgGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
+KYFxHH1xHShYBAAAAHRpbWVxHkdB1s1AzKUCvFgGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
 ZWxlY3Rpb25xIVgWAAAAKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKXEiSv////+GcSNYDAAAAGZvbGRf
 ZmVhdHVyZXEkTkr+////hnElWBUAAABmb2xkX2ZlYXR1cmVfc2VsZWN0ZWRxJolK/v///4ZxJ2gY
 SwN1WAoAAABhdHRyaWJ1dGVzcSgoWAwAAABzZXBhbCBsZW5ndGhxKUsChnEqWAsAAABzZXBhbCB3

@@ -1,0 +1,12 @@
+Orange1: Introducción a los controles/widgets. File + Data Table
+Orange2: Visualización. Datasets + Data Table + Varios Visualizadores. Hablar de las opciones de los conectores. Probar con Iris, Titanic
+Orange3: Construcción de un árbol de clasificación. File + Class. Tree + Class. Tree Viewer + Scatter Plot. Permite ir navegando por los nodos del árbol entrenado para ver qué parte de los datos clasifica. Jugar con los parámetros del clasificador.
+Orange4: PCA. Jugar con el número de componentes y ver las diversas proyecciones para ver los resultados que se obtienen.
+Orange5: Comparativa de varios modelos en una tarea de clasificación. Uso de Validación cruzada y de la matriz de confusión.
+Orange6: Entrenar un modelo y hacer predicciones sobre otros datos. Se divide en Training+Test con Data Sampler. Se muestra cómo grabar las predicciones. Cambiar de dataset (iris, heart-disease, ...)
+Orange7: K-medias sobre Iris... jugar con el número de clusters óptimo. Tener en cuenta que se añade una variable nueva con el índice del cluster asociado.
+Orange8: Comparativa de ANN y Regresión Logística. Cambiar interactivamente los parámetros del modelo.	
+Orange9: Comprobando la capacidad predictiva de ANN con Iris. Se usa el conjunto entero en el entrenamiento, y se añade una matriz de confusión para ver dónde falla.
+Orange10: Modificación de Orange9 añadiendo un Data Sampler para separar entrenamiento y test.
+Orange11: Ejemplo de t-SNE, MDS, ...
+Orange12: Efecto de selección de features en el aprendizaje de ANN (hablar del tamaño de la red en nodos). Con Iris, gana el reducido

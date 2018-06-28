@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="How good are supervised data mining methods on your classification dataset? Here's a workflow that scores various classification techniques on a dataset from medicine. The central widget here is the one for testing and scoring, which is given the data and a set of learners, does cross-validation and scores predictive accuracy, and outputs the scores for further examination." title="Cross-Validation" version="2.0">
 	<nodes>
-		<node id="0" name="File" position="(91.0, 170.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
-		<node id="1" name="Test &amp; Score" position="(364.0, 218.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
-		<node id="2" name="Logistic Regression" position="(64.0, 258.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" title="Logistic Regression" version="" />
-		<node id="3" name="Random Forest" position="(84.0, 334.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" title="Random Forest Classification" version="" />
-		<node id="4" name="SVM" position="(160.0, 360.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owsvm.OWSVM" title="SVM" version="" />
-		<node id="5" name="Data Table" position="(300.0, 93.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
-		<node id="6" name="Data Table" position="(651.0, 218.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
-		<node id="7" name="Confusion Matrix" position="(499.0, 218.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" title="Confusion Matrix" version="" />
-		<node id="8" name="kNN" position="(212.0, 411.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" title="kNN" version="" />
-		<node id="9" name="Tree" position="(266.0, 466.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" title="Tree" version="" />
+		<node id="0" name="File" position="(38.0, 71.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="1" name="Test &amp; Score" position="(347.0, 134.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
+		<node id="2" name="Logistic Regression" position="(47.0, 174.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" title="Logistic Regression" version="" />
+		<node id="3" name="Random Forest" position="(67.0, 250.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" title="Random Forest Classification" version="" />
+		<node id="4" name="SVM" position="(143.0, 276.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owsvm.OWSVM" title="SVM" version="" />
+		<node id="5" name="Data Table" position="(283.0, 9.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="6" name="Data Table" position="(695.0, 134.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
+		<node id="7" name="Confusion Matrix" position="(482.0, 134.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" title="Confusion Matrix" version="" />
+		<node id="8" name="kNN" position="(195.0, 327.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" title="kNN" version="" />
+		<node id="9" name="Tree" position="(249.0, 382.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" title="Tree" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
@@ -24,19 +24,19 @@
 		<link enabled="true" id="8" sink_channel="Learner" sink_node_id="1" source_channel="Learner" source_node_id="9" />
 	</links>
 	<annotations>
-		<text font-family="Helvetica" font-size="14" id="0" rect="(16.0, 56.0, 180.0, 46.0)" type="text/plain">Abrir "iris.tab", por ejemplo.</text>
-		<text font-family="Helvetica" font-size="14" id="1" rect="(381.0, 76.0, 171.0, 54.0)" type="text/plain">Siempre es buena idea mostrar los datos.</text>
-		<text font-family="Helvetica" font-size="14" id="2" rect="(596.0, 81.0, 197.0, 60.0)" type="text/plain">Selecciona una celda de la matriz de confusión y observa las instancias relacionadas.</text>
-		<text font-family="Helvetica" font-size="14" id="3" rect="(533.0, 308.0, 167.0, 79.0)" type="text/plain">La matriz de confusión te permite explorar los detalles de cómo se han comportado los modelos.</text>
-		<text font-family="Helvetica" font-size="14" id="4" rect="(373.0, 319.0, 132.0, 97.0)" type="text/plain">Aquí se realiza la validación cruzada. Haz doble clic para ver el rendimiento de los modelos.</text>
-		<text font-family="Helvetica" font-size="14" id="5" rect="(1.0, 429.0, 168.0, 94.0)" type="text/plain">Se pueden usar varios modelos de aprendizaje para ser evaluados simultáneamente por cross-validation.</text>
-		<arrow end="(67.0, 150.0)" fill="#C1272D" id="6" start="(47.0, 116.0)" />
-		<arrow end="(336.0, 94.0)" fill="#C1272D" id="7" start="(378.0, 94.0)" />
-		<arrow end="(373.0, 272.0)" fill="#C1272D" id="8" start="(398.0, 318.0)" />
-		<arrow end="(517.0, 268.0)" fill="#C1272D" id="9" start="(556.0, 316.0)" />
-		<arrow end="(646.0, 188.0)" fill="#C1272D" id="10" start="(639.0, 142.0)" />
-		<arrow end="(127.0, 402.0)" fill="#39B54A" id="11" start="(94.00000000000001, 436.0)" />
-		<arrow end="(513.0, 189.0)" fill="#C1272D" id="12" start="(632.0, 141.0)" />
+		<text font-family="Helvetica" font-size="14" id="0" rect="(-36.0, -39.0, 180.0, 46.0)" type="text/plain">Abrir "iris.tab", por ejemplo.</text>
+		<text font-family="Helvetica" font-size="14" id="1" rect="(364.0, -8.0, 171.0, 54.0)" type="text/plain">Siempre es buena idea mostrar los datos.</text>
+		<text font-family="Helvetica" font-size="14" id="2" rect="(579.0, -3.0, 197.0, 63.0)" type="text/plain">Selecciona una celda de la matriz de confusión y observa las instancias relacionadas.</text>
+		<text font-family="Helvetica" font-size="14" id="3" rect="(516.0, 224.0, 167.0, 80.0)" type="text/plain">La matriz de confusión te permite explorar los detalles de cómo se han comportado los modelos.</text>
+		<text font-family="Helvetica" font-size="14" id="4" rect="(356.0, 235.0, 132.0, 97.0)" type="text/plain">Aquí se realiza la validación cruzada. Haz doble clic para ver el rendimiento de los modelos.</text>
+		<text font-family="Helvetica" font-size="14" id="5" rect="(-25.0, 345.0, 168.0, 97.0)" type="text/plain">Se pueden usar varios modelos de aprendizaje para ser evaluados simultáneamente por cross-validation.</text>
+		<arrow end="(30.0, 46.00000000000001)" fill="#C1272D" id="6" start="(16.0, 4.000000000000014)" />
+		<arrow end="(319.0, 9.999999999999972)" fill="#C1272D" id="7" start="(361.0, 9.999999999999972)" />
+		<arrow end="(356.0, 188.0)" fill="#C1272D" id="8" start="(381.0, 234.0)" />
+		<arrow end="(500.0, 184.0)" fill="#C1272D" id="9" start="(539.0, 232.0)" />
+		<arrow end="(691.0, 106.0)" fill="#C1272D" id="10" start="(662.0, 57.99999999999999)" />
+		<arrow end="(110.00000000000001, 318.0)" fill="#39B54A" id="11" start="(77.00000000000003, 352.0)" />
+		<arrow end="(481.0, 104.00000000000001)" fill="#C1272D" id="12" start="(579.0, 29.000000000000014)" />
 	</annotations>
 	<thumbnail />
 	<node_properties>
@@ -50,7 +50,7 @@ c2F2ZWRXaWRnZXRHZW9tZXRyeXETQzIB2dDLAAIAAAAAAAAAAAAAAAACYQAAAhsAAAAFAAAAFgAA
 AlwAAAIWAAAAAAAAAAADwHEUWAsAAABzaGVldF9uYW1lc3EVfXEWWAYAAABzb3VyY2VxF0sAWAMA
 AAB1cmxxGGgOWA0AAABkb21haW5fZWRpdG9ycRl9cRpYCwAAAF9fdmVyc2lvbl9fcRtLAVgQAAAA
 Y29udGV4dF9zZXR0aW5nc3EcXXEdY09yYW5nZS53aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcR4p
-gXEffXEgKFgEAAAAdGltZXEhR0HWx5TdrCDeWAYAAAB2YWx1ZXNxIn1xIyhYCQAAAHZhcmlhYmxl
+gXEffXEgKFgEAAAAdGltZXEhR0HWzT+47/VKWAYAAAB2YWx1ZXNxIn1xIyhYCQAAAHZhcmlhYmxl
 c3EkXXElWAkAAAB4bHNfc2hlZXRxJmgOSv////+GcSdoGX1xKGgkXXEpKF1xKihYDAAAAHNlcGFs
 IGxlbmd0aHErY09yYW5nZS5kYXRhLnZhcmlhYmxlCkNvbnRpbnVvdXNWYXJpYWJsZQpxLEsAaA6I
 ZV1xLShYCwAAAHNlcGFsIHdpZHRocS5oLEsAaA6IZV1xLyhYDAAAAHBldGFsIGxlbmd0aHEwaCxL
@@ -67,11 +67,11 @@ YWJsZXNxSl1xS3ViYXUu
 AG5fZm9sZHNxA0sDWAkAAABuX3JlcGVhdHNxBEsDWAoAAAByZXNhbXBsaW5ncQVLAFgLAAAAc2Ft
 cGxlX3NpemVxBksJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDMgHZ0MsAAgAAAAAAWgAAAFQA
 AANvAAAB4gAAAF8AAABqAAADagAAAd0AAAAAAAAAAAPAcQhYDAAAAHNob3duX3Njb3Jlc3EJY2J1
-aWx0aW5zCnNldApxCl1xCyhYBAAAAFJNU0VxDFgDAAAAQVVDcQ1YAgAAAENBcQ5YCQAAAFByZWNp
-c2lvbnEPWAMAAABNU0VxEFgCAAAARjFxEVgDAAAATUFFcRJYBgAAAFJlY2FsbHETWAIAAABSMnEU
+aWx0aW5zCnNldApxCl1xCyhYAwAAAE1BRXEMWAMAAABBVUNxDVgJAAAAUHJlY2lzaW9ucQ5YAgAA
+AFIycQ9YAwAAAE1TRXEQWAQAAABSTVNFcRFYBgAAAFJlY2FsbHESWAIAAABGMXETWAIAAABDQXEU
 ZYVxFVJxFlgSAAAAc2h1ZmZsZV9zdHJhdGlmaWVkcReIWAsAAABfX3ZlcnNpb25fX3EYSwNYEAAA
 AGNvbnRleHRfc2V0dGluZ3NxGV1xGmNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEb
-KYFxHH1xHShYBAAAAHRpbWVxHkdB1seU3bk2BFgGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
+KYFxHH1xHShYBAAAAHRpbWVxHkdB1s0/uQ8+hFgGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
 ZWxlY3Rpb25xIVgWAAAAKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKXEiSv////+GcSNYDAAAAGZvbGRf
 ZmVhdHVyZXEkTkr+////hnElWBUAAABmb2xkX2ZlYXR1cmVfc2VsZWN0ZWRxJolK/v///4ZxJ2gY
 SwN1WAoAAABhdHRyaWJ1dGVzcSgoWAwAAABzZXBhbCBsZW5ndGhxKUsChnEqWAsAAABzZXBhbCB3
@@ -91,8 +91,8 @@ Y29udGV4dF9zZXR0aW5nc3EMXXENY09yYW5nZS53aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcQ4p
 gXEPfXEQKFgOAAAAb3JkZXJlZF9kb21haW5xEV1xEihYDAAAAHNlcGFsIGxlbmd0aHETSwKGcRRY
 CwAAAHNlcGFsIHdpZHRocRVLAoZxFlgMAAAAcGV0YWwgbGVuZ3RocRdLAoZxGFgLAAAAcGV0YWwg
 d2lkdGhxGUsChnEaWAQAAABpcmlzcRtLAYZxHGVYBgAAAHZhbHVlc3EdfXEeKFgNAAAAc2VsZWN0
-ZWRfY29sc3EfXXEgWA0AAABzZWxlY3RlZF9yb3dzcSFdcSJoC0sBdVgEAAAAdGltZXEjR0HWx5Td
-1CYsWAoAAABhdHRyaWJ1dGVzcSR9cSUoaBVLAmgbXXEmKFgLAAAASXJpcy1zZXRvc2FxJ1gPAAAA
+ZWRfY29sc3EfXXEgWA0AAABzZWxlY3RlZF9yb3dzcSFdcSJoC0sBdVgEAAAAdGltZXEjR0HWzT+5
+OLQhWAoAAABhdHRyaWJ1dGVzcSR9cSUoaBVLAmgbXXEmKFgLAAAASXJpcy1zZXRvc2FxJ1gPAAAA
 SXJpcy12ZXJzaWNvbG9ycShYDgAAAElyaXMtdmlyZ2luaWNhcSllaBlLAmgTSwJoF0sCdVgFAAAA
 bWV0YXNxKn1xK3ViYXUu
 </properties>
@@ -102,39 +102,43 @@ ZWRXaWRnZXRHZW9tZXRyeXEGQzIB2dDLAAIAAAAAAdwAAAABAAADxAAAAiAAAAHhAAAAFwAAA78A
 AAIbAAAAAAAAAAADwHEHWAsAAABzZWxlY3Rfcm93c3EIiFgVAAAAc2hvd19hdHRyaWJ1dGVfbGFi
 ZWxzcQmIWBIAAABzaG93X2Rpc3RyaWJ1dGlvbnNxColYCwAAAF9fdmVyc2lvbl9fcQtLAVgQAAAA
 Y29udGV4dF9zZXR0aW5nc3EMXXENKGNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEO
-KYFxD31xEChYBAAAAHRpbWVxEUdB1seVcdx2rlgGAAAAdmFsdWVzcRJ9cRMoWA0AAABzZWxlY3Rl
+KYFxD31xEChYBAAAAHRpbWVxEUdB1s1AEFGngFgGAAAAdmFsdWVzcRJ9cRMoWA0AAABzZWxlY3Rl
 ZF9jb2xzcRRdcRVYDQAAAHNlbGVjdGVkX3Jvd3NxFl1xF2gLSwF1WAoAAABhdHRyaWJ1dGVzcRh9
 cRkoWAwAAABzZXBhbCBsZW5ndGhxGksCWAsAAABzZXBhbCB3aWR0aHEbSwJYDAAAAHBldGFsIGxl
 bmd0aHEcSwJYCwAAAHBldGFsIHdpZHRocR1LAlgEAAAAaXJpc3EeXXEfKFgLAAAASXJpcy1zZXRv
 c2FxIFgPAAAASXJpcy12ZXJzaWNvbG9ycSFYDgAAAElyaXMtdmlyZ2luaWNhcSJldVgFAAAAbWV0
-YXNxI31xJFgJAAAAaXJpcyhrTk4pcSVdcSYoaCBoIWgiZXN1YmgOKYFxJ31xKChoEUdB1seVDsXV
-iGgSfXEpKGgUXXEqaBZdcStoC0sBdWgYfXEsKGgaSwJoG0sCaBxLAmgdSwJoHmgfdWgjfXEtWBkA
-AABpcmlzKExvZ2lzdGljIFJlZ3Jlc3Npb24pcS5dcS8oaCBoIWgiZXN1YmgOKYFxMH1xMShoEUdB
-1seVBeCCf2gSfXEyKGgUXXEzaBZdcTRoC0sBdWgYfXE1KGgaSwJoG0sCaBxLAmgdSwJoHmgfdWgj
-fXE2WBEAAABpcmlzKFNWTSBMZWFybmVyKXE3XXE4KGggaCFoImVzdWJoDimBcTl9cTooaBFHQdbH
-lQVfu/doEn1xOyhoFF1xPGgWXXE9aAtLAXVoGH1xPihoGksCaBtLAmgcSwJoHUsCaB5oH3VoI31x
-P1gbAAAAaXJpcyhSYW5kb20gRm9yZXN0IExlYXJuZXIpcUBdcUEoaCBoIWgiZXN1YmgOKYFxQn1x
-QyhYDgAAAG9yZGVyZWRfZG9tYWlucURdcUUoWAwAAABzZXBhbCBsZW5ndGhxRksChnFHWAsAAABz
-ZXBhbCB3aWR0aHFISwKGcUlYDAAAAHBldGFsIGxlbmd0aHFKSwKGcUtYCwAAAHBldGFsIHdpZHRo
-cUxLAoZxTVgEAAAAaXJpc3FOSwGGcU9laBJ9cVAoWA4AAABjb2xvcl9zZXR0aW5nc3FRTkr+////
-hnFSWA0AAABzZWxlY3RlZF9yb3dzcVNdcVRYFQAAAHNob3dfYXR0cmlidXRlX2xhYmVsc3FViEr+
-////hnFWWAsAAABzZWxlY3Rfcm93c3FXiEr+////hnFYWA4AAABkaXN0X2NvbG9yX1JHQnFZaAVK
-/v///4ZxWlgSAAAAc2hvd19kaXN0cmlidXRpb25zcVuJSv7///+GcVxYDgAAAGNvbG9yX2J5X2Ns
-YXNzcV2ISv7///+GcV5YCwAAAGF1dG9fY29tbWl0cV+ISv7///+GcWBYEwAAAHNhdmVkV2lkZ2V0
-R2VvbWV0cnlxYU5K/v///4ZxYlgVAAAAc2VsZWN0ZWRfc2NoZW1hX2luZGV4cWNLAEr+////hnFk
-WA0AAABzZWxlY3RlZF9jb2xzcWVdcWZoC0sBdWgRR0HVktQu4mADaBh9cWcoaEhLAmhOXXFoKFgL
-AAAASXJpcy1zZXRvc2FxaVgPAAAASXJpcy12ZXJzaWNvbG9ycWpYDgAAAElyaXMtdmlyZ2luaWNh
-cWtlaExLAmhGSwJoSksCdWgjfXFsdWJldS4=
+YXNxI31xJFgKAAAAaXJpcyhUcmVlKXElXXEmKGggaCFoImVzdWJoDimBcSd9cSgoaBFHQdbNQA/Z
+W7JoEn1xKShoFF1xKmgWXXEraAtLAXVoGH1xLChYDAAAAHNlcGFsIGxlbmd0aHEtSwJYCwAAAHNl
+cGFsIHdpZHRocS5LAlgMAAAAcGV0YWwgbGVuZ3RocS9LAlgLAAAAcGV0YWwgd2lkdGhxMEsCWAQA
+AABpcmlzcTFdcTIoWAsAAABJcmlzLXNldG9zYXEzWA8AAABJcmlzLXZlcnNpY29sb3JxNFgOAAAA
+SXJpcy12aXJnaW5pY2FxNWV1aCN9cTZYCQAAAGlyaXMoa05OKXE3XXE4KGgzaDRoNWVzdWJoDimB
+cTl9cTooaBFHQdbNQA4QA2JoEn1xOyhoFF1xPGgWXXE9aAtLAXVoGH1xPihoLUsCaC5LAmgvSwJo
+MEsCaDFoMnVoI31xP1gRAAAAaXJpcyhTVk0gTGVhcm5lcilxQF1xQShoM2g0aDVlc3ViaA4pgXFC
+fXFDKGgRR0HWzUANf8QsaBJ9cUQoaBRdcUVoFl1xRmgLSwF1aBh9cUcoaC1LAmguSwJoL0sCaDBL
+AmgxaDJ1aCN9cUhYGwAAAGlyaXMoUmFuZG9tIEZvcmVzdCBMZWFybmVyKXFJXXFKKGgzaDRoNWVz
+dWJoDimBcUt9cUwoaBFHQdbNQAwEAoBoEn1xTShoFF1xTmgWXXFPaAtLAXVoGH1xUChoLUsCaC5L
+AmgvSwJoMEsCaDFoMnVoI31xUVgZAAAAaXJpcyhMb2dpc3RpYyBSZWdyZXNzaW9uKXFSXXFTKGgz
+aDRoNWVzdWJoDimBcVR9cVUoWA4AAABvcmRlcmVkX2RvbWFpbnFWXXFXKFgMAAAAc2VwYWwgbGVu
+Z3RocVhLAoZxWVgLAAAAc2VwYWwgd2lkdGhxWksChnFbWAwAAABwZXRhbCBsZW5ndGhxXEsChnFd
+WAsAAABwZXRhbCB3aWR0aHFeSwKGcV9YBAAAAGlyaXNxYEsBhnFhZWgSfXFiKFgOAAAAY29sb3Jf
+c2V0dGluZ3NxY05K/v///4ZxZFgNAAAAc2VsZWN0ZWRfcm93c3FlXXFmWBUAAABzaG93X2F0dHJp
+YnV0ZV9sYWJlbHNxZ4hK/v///4ZxaFgLAAAAc2VsZWN0X3Jvd3NxaYhK/v///4ZxalgOAAAAZGlz
+dF9jb2xvcl9SR0Jxa2gFSv7///+GcWxYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3FtiUr+////hnFu
+WA4AAABjb2xvcl9ieV9jbGFzc3FviEr+////hnFwWAsAAABhdXRvX2NvbW1pdHFxiEr+////hnFy
+WBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cXNOSv7///+GcXRYFQAAAHNlbGVjdGVkX3NjaGVtYV9p
+bmRleHF1SwBK/v///4ZxdlgNAAAAc2VsZWN0ZWRfY29sc3F3XXF4aAtLAXVoEUdB1ZLULuJgA2gY
+fXF5KGhaSwJoYF1xeihYCwAAAElyaXMtc2V0b3NhcXtYDwAAAElyaXMtdmVyc2ljb2xvcnF8WA4A
+AABJcmlzLXZpcmdpbmljYXF9ZWheSwJoWEsCaFxLAnVoI31xfnViZXUu
 </properties>
 		<properties format="pickle" node_id="7">gAN9cQAoWBIAAABhcHBlbmRfcHJlZGljdGlvbnNxAYhYFAAAAGFwcGVuZF9wcm9iYWJpbGl0aWVz
 cQKJWAoAAABhdXRvY29tbWl0cQOIWBIAAABjb250cm9sQXJlYVZpc2libGVxBIhYEwAAAHNhdmVk
-V2lkZ2V0R2VvbWV0cnlxBUMyAdnQywACAAD////8AAAAAQAAAeQAAAIgAAAAAQAAABcAAAHfAAAC
-GwAAAAAAAAAAA8BxBlgQAAAAc2VsZWN0ZWRfbGVhcm5lcnEHY2NvcHlyZWcKX3JlY29uc3RydWN0
-b3IKcQhjYnVpbHRpbnMKbGlzdApxCWgJKYdxClJxC0sDYVgRAAAAc2VsZWN0ZWRfcXVhbnRpdHlx
+V2lkZ2V0R2VvbWV0cnlxBUMyAdnQywACAAAAAABgAAAAcAAAAr4AAAGnAAAAZQAAAIYAAAK5AAAB
+ogAAAAAAAAAAA8BxBlgQAAAAc2VsZWN0ZWRfbGVhcm5lcnEHY2NvcHlyZWcKX3JlY29uc3RydWN0
+b3IKcQhjYnVpbHRpbnMKbGlzdApxCWgJKYdxClJxC0sEYVgRAAAAc2VsZWN0ZWRfcXVhbnRpdHlx
 DEsAWAsAAABfX3ZlcnNpb25fX3ENSwFYEAAAAGNvbnRleHRfc2V0dGluZ3NxDl1xD2NPcmFuZ2Uu
 d2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEQKYFxEX1xEihYBwAAAGNsYXNzZXNxE11xFChYCwAA
 AElyaXMtc2V0b3NhcRVYDwAAAElyaXMtdmVyc2ljb2xvcnEWWA4AAABJcmlzLXZpcmdpbmljYXEX
-ZVgEAAAAdGltZXEYR0HWx5Vx1YcRWAYAAAB2YWx1ZXNxGX1xGihYCQAAAHNlbGVjdGlvbnEbY2J1
+ZVgEAAAAdGltZXEYR0HWzT+5P/ORWAYAAAB2YWx1ZXNxGX1xGihYCQAAAHNlbGVjdGlvbnEbY2J1
 aWx0aW5zCnNldApxHF1xHUsCSwGGcR5hhXEfUnEgaA1LAXV1YmF1Lg==
 </properties>
 		<properties format="literal" node_id="8">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'kNN', 'metric_index': 0, 'n_neighbors': 5, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01z\x00\x00\x00\x8b\x00\x00\x02E\x00\x00\x01\x80\x00\x00\x01\x7f\x00\x00\x00\xa1\x00\x00\x02@\x00\x00\x01{\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', 'weight_index': 0, '__version__': 1}</properties>
