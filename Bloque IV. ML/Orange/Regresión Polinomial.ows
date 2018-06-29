@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="Ejemplo básico de regresión polinomial sobre datos dibujados por el usuario." title="Regresión Polinomial" version="2.0">
+	<nodes>
+		<node id="0" name="Paint Data" position="(78.0, 207.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" title="Paint Data" version="" />
+		<node id="1" name="Polynomial Regression" position="(277.0, 206.0)" project_name="Orange3-Educational" qualified_name="orangecontrib.educational.widgets.owpolynomialregression.OWUnivariateRegression" title="Polynomial Regression" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'attr1': 'x', 'attr2': 'y', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': True, 'data': [], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00)\x00\x00\x002\x00\x00\x02l\x00\x00\x02\x11\x00\x00\x00.\x00\x00\x00H\x00\x00\x02g\x00\x00\x02\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_apply': True, 'controlAreaVisible': True, 'error_bars_enabled': False, 'learner_name': 'Univariate Regression', 'polynomialexpansion': 1.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00f\x00\x00\x00;\x00\x00\x03\x93\x00\x00\x02\x0b\x00\x00\x00k\x00\x00\x00Q\x00\x00\x03\x8e\x00\x00\x02\x06\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', '__version__': 1}</properties>
+	</node_properties>
+</scheme>
